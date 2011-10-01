@@ -2,3 +2,38 @@
   Override default refinery application CSS below.
   Formatting applies to all frontend.
 */
+
+#logo a {
+	color: grey;	
+	text-decoration: none;
+}
+
+#menu {
+	background: #5EB8B8;
+}
+
+#menu a {
+	text-decoration: none;
+	
+}
+
+#footer {
+	font-size: 80%;
+}
+
+#footer_l {
+	text-align:center;
+	float: left;
+}
+
+#footer_r {
+	text-align:center;
+	float: right;
+}
+
+#footer_c {
+	text-align:center;
+	float: center;
+}
+
+
