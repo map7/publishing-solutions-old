@@ -16,7 +16,7 @@
 
 #heading {
   height: 40px;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 5px;
 }
 
@@ -26,14 +26,30 @@
 
 #nav {
   margin-left: 16px;
+
 }
 #menu ul li {
-  height: 20px;
+  height: 22px;
+  padding-top: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
   background: #B3D1D7;
+  border-top-left-radius: 10px 5px;
+  border-top-right-radius: 10px 5px;
 }
 
-#menu a {
+#menu ul li a {
   text-decoration: none;
+}
+
+#menu ul li:hover, #menu ul li.selected {
+  background: white;
+}
+#body_content_left {
+  width:80%;
+}
+#body_content_right {
+  width:20%;
 }
 
 #footer {
