@@ -3,18 +3,37 @@
   Formatting applies to all frontend.
 */
 
-#logo a {
-	color: grey;	
-	text-decoration: none;
+
+#header {
+  padding-top: 10px;
+  background: #5EB8B8;
+  height: 90px;
 }
 
-#menu {
-	background: #5EB8B8;
+#logo {
+  float: right;
+}
+
+#heading {
+  height: 40px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+#heading a {
+  text-decoration: none;
+}
+
+#nav {
+  margin-left: 16px;
+}
+#menu ul li {
+  height: 20px;
+  background: #B3D1D7;
 }
 
 #menu a {
-	text-decoration: none;
-	
+  text-decoration: none;
 }
 
 #footer {
