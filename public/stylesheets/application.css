@@ -38,7 +38,9 @@
   margin-left: 16px;
 
 }
-#menu ul li {
+
+/* Top level menus */
+#menu > ul > li {
   height: 22px;
   padding-top: 3px;
   padding-left: 7px;
@@ -55,6 +57,25 @@
 #menu ul li:hover, #menu ul li.selected {
   background: white;
 }
+
+/* Sub menus */
+#menu ul li:hover ul {
+  visibility: visible;
+}
+
+#menu ul li ul { 
+  position:absolute;
+  visibility: hidden;
+}
+
+#menu ul li ul {
+  background: white;
+}
+#menu ul li ul li {
+  padding-top: 10px;
+  float: none;
+}
+
 #body_content_left {
   width:80%;
 }
