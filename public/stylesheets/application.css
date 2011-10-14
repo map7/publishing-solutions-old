@@ -51,6 +51,7 @@
 }
 
 #menu ul li a {
+  color: #164188;
   text-decoration: none;
 }
 
@@ -67,13 +68,16 @@
   position:absolute;
   visibility: hidden;
 }
-
 #menu ul li ul {
   background: white;
 }
 #menu ul li ul li {
-  padding-top: 10px;
+  margin-top: 5px;
+  padding: 5px;
   float: none;
+}
+#menu ul li ul li:hover { 
+  background: #B3D1D7;
 }
 
 #body_content_left {
