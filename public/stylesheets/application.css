@@ -7,7 +7,7 @@
 #header {
   padding-top: 10px;
   background: #5EB8B8;
-  height: 110px;
+  height: 160px;
 }
 
 #tagline {
@@ -19,17 +19,19 @@
   font-weight: bold;
   font-style: italic;
   text-align: right;
+  margin-top: 60px;
 }
 
 #logo {
   float: right;
+  margin-top: 60px;
 }
 
 #heading {
-  height: 40px;
+  height: 90px;
   margin-top: 40px;
   margin-bottom: 5px;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 #heading a {
