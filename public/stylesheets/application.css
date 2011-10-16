@@ -7,13 +7,14 @@
 #header {
   padding-top: 10px;
   background: #5EB8B8;
-  height: 90px;
+  height: 110px;
 }
 
 #tagline {
   float: right;
   width: 300px;
   height: 90px;
+  color: #174289;
   font-size: 9pt;
   font-weight: bold;
   font-style: italic;
@@ -26,8 +27,9 @@
 
 #heading {
   height: 40px;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 5px;
+  margin-left: 150px;
 }
 
 #heading a {
