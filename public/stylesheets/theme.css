@@ -2,3 +2,31 @@
   Override default refinery 'theme' styles here.
   These only apply when using custom WYMeditor CSS.
 */
+
+.medium_box {
+    width: 550px;
+    padding-right: 30px;
+}
+
+.align-top {
+    valign: top;
+}
+
+.border-color-blue {
+    width: 296px;
+    padding: 10px;
+    font-size: 16pt;
+    border: 2px #253D86 solid;
+}
+
+.font-size-20pt {
+    font-size: 20pt;
+}
+
+.text-color-red {
+    color: #C61427;
+}
+
+.text-color-blue {
+    color: #253D86;
+}
