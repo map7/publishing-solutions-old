@@ -6,7 +6,6 @@
 
 #header {
   padding-top: 10px;
-  background: #5EB8B8;
   height: 160px;
 }
 
@@ -16,8 +15,7 @@
   height: 90px;
   color: #174289;
   font-size: 9pt;
-  font-weight: bold;
-  font-style: italic;
+  font-weight: normal;
   text-align: right;
   margin-top: 60px;
 }
