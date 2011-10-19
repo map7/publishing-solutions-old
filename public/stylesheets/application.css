@@ -3,6 +3,17 @@
   Formatting applies to all frontend.
 */
 
+#page_container { 
+  height: 1000px;
+  background-color: #F07575; /* fallback color if gradients are not supported */
+
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3CBEB8), to(#ffffff)); 
+  background-image: -webkit-linear-gradient(top, #3CBEB8, #ffffff); 
+  background-image:    -moz-linear-gradient(top, #3CBEB8, #ffffff); 
+  background-image:     -ms-linear-gradient(top, #3CBEB8, #ffffff); 
+  background-image:      -o-linear-gradient(top, #3CBEB8, #ffffff); 
+  background-image:         linear-gradient(to bottom, #3CBEB8, #ffffff); /* current standard, but unimplemented and subject to change */
+}
 
 #header {
   padding-top: 10px;
@@ -47,9 +58,9 @@
   padding-top: 3px;
   padding-left: 7px;
   padding-right: 7px;
-  background: #B3D1D7;
-  border-top-left-radius: 10px 5px;
-  border-top-right-radius: 10px 5px;
+  background: #3ABDB7;
+  border-radius: 10px ;
+
 }
 
 #menu ul li a {
@@ -58,7 +69,7 @@
 }
 
 #menu ul li:hover, #menu ul li.selected {
-  background: white;
+  background: #B3D1D7;
 }
 
 /* Sub menus */
