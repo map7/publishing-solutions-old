@@ -78,24 +78,28 @@ body {
 }
 
 /* Sub menus */
+#menu ul li ul { 
+    position:absolute;
+    visibility: hidden;
+    margin-top: 3px;
+}
 #menu ul li:hover ul {
     visibility: visible;
 }
 
-#menu ul li ul { 
-    position:absolute;
-    visibility: hidden;
-}
-#menu ul li ul {
-    background: white;
-}
 #menu ul li ul li {
-    margin-top: 5px;
-    padding: 5px;
+    margin-left: -10px;
+    background: #3ABDB7;
+    width:100px;
     float: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
 }
-#menu ul li ul li:hover { 
-    background: #B3D1D7;
+#menu ul li ul li:hover {
+
 }
 
 #body_content_left {
