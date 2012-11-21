@@ -1,5 +1,6 @@
 set :application, "publishing-solutions"
-set :repository,  "amanda@localhost:/home/amanda/publishing-solutions"
+#set :repository,  "amanda@localhost:/home/amanda/publishing-solutions"
+set :repository,  "/home/map7/publishing-solutions"
 
 set :user, "vps"
 set :use_sudo, false
@@ -58,7 +59,9 @@ namespace :bundler do
 end
 
 after "deploy:rollback:revision", "bundler:install"
-after "deploy:update_code", "bundler:bundle_new_release"
+#after "deploy:update_code", "bundler:bundle_new_release"
+after "deploy:update_code", "bundler:bundler:install"
+after "deploy:update_code", "deploy:migrate"
 
 # If you are using Passenger mod_rails uncomment this:
  namespace :deploy do
