@@ -109,6 +109,8 @@ body {
 /* Body */
 .inner {
     margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 95px;
     border-top: solid 2px #3ABDB7;
 }
 td {
@@ -128,6 +130,8 @@ h2 {
 /* Footer */
 #footer {
     padding-top: 20px;
+    margin-left: 15px;
+    margin-right: 95px;
     font-size: 80%;
 }
 
