@@ -10,7 +10,7 @@ default_run_options[:pty] = true
 set :scm, "git"
 set :branch, "master"
 set :deploy_to, "/var/www/pubsol"
-set :deploy_via, :copy # This way we don't need port forwarding.
+# set :deploy_via, :copy # This way we don't need port forwarding.
 
 role :web, "103.1.185.68"                          # Your HTTP server, Apache/etc
 role :app, "103.1.185.68"                          # This may be the same as your `Web` server
