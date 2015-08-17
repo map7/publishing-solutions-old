@@ -10,14 +10,14 @@ body {
 
 #page_container { 
     height: 1000px;
-    background-color: #F07575; /* fallback color if gradients are not supported */
+    /* background-color: #F07575; /\* fallback color if gradients are not supported *\/ */
 
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#3CBEB8), to(#ffffff)); 
-    background-image: -webkit-linear-gradient(top, #3CBEB8, #ffffff); 
-    background-image:    -moz-linear-gradient(top, #3CBEB8, #ffffff); 
-    background-image:     -ms-linear-gradient(top, #3CBEB8, #ffffff); 
-    background-image:      -o-linear-gradient(top, #3CBEB8, #ffffff); 
-    background-image:         linear-gradient(to bottom, #3CBEB8, #ffffff); /* current standard, but unimplemented and subject to change */
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(#3CBEB8), to(#ffffff));  */
+    /* background-image: -webkit-linear-gradient(top, #3CBEB8, #ffffff);  */
+    /* background-image:    -moz-linear-gradient(top, #3CBEB8, #ffffff);  */
+    /* background-image:     -ms-linear-gradient(top, #3CBEB8, #ffffff);  */
+    /* background-image:      -o-linear-gradient(top, #3CBEB8, #ffffff);  */
+    /* background-image:         linear-gradient(to bottom, #3CBEB8, #ffffff); /\* current standard, but unimplemented and subject to change *\/ */
 }
 
 #header {
