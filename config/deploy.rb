@@ -1,7 +1,12 @@
+
+set :keep_releases, 8
+
 set :application, "publishing-solutions"
 #set :repository,  "amanda@localhost:/home/amanda/publishing-solutions"
 #set :repository,  "/home/map7/publishing-solutions"
 set :repository, "git@github.com:map7/publishing-solutions.git"
+
+set :deploy_to, "/var/www/pubsol"
 
 set :user, "vps"
 set :use_sudo, false
@@ -9,7 +14,6 @@ default_run_options[:pty] = true
 
 set :scm, "git"
 set :branch, "master"
-set :deploy_to, "/var/www/pubsol"
 # set :deploy_via, :copy # This way we don't need port forwarding.
 
 role :web, "103.1.185.68"                          # Your HTTP server, Apache/etc
@@ -61,7 +65,7 @@ end
 
 after "deploy:rollback:revision", "bundler:install"
 #after "deploy:update_code", "bundler:bundle_new_release"
-after "deploy:update_code", "bundler:bundler:install"
+after "deploy:update_code", "bundler:install"
 after "deploy:update_code", "deploy:migrate"
 
 # If you are using Passenger mod_rails uncomment this:
