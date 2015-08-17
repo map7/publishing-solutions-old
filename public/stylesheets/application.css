@@ -68,7 +68,7 @@ body {
     padding-left: 7px;
     padding-right: 7px;
     background: #3ABDB7;
-    border-radius: 10px ;
+    border-radius: 3px ;
 
 }
 
@@ -100,7 +100,7 @@ body {
     padding-bottom: 3px;
     padding-left: 7px;
     padding-right: 7px;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 #menu ul li ul li:hover {
 
@@ -109,18 +109,27 @@ body {
 /* Body */
 .inner {
     margin-top: 30px;
+    border-top: solid 2px #3ABDB7;
 }
 td {
     vertical-align: top;
 }
 #body_content_left {
+    float: none;
     width: 560px;
 }
 #body_content_right {
 }
 
+h2 {
+    color: #777;
+}
+
 /* Footer */
-#footer { font-size: 80%;}
+#footer {
+    padding-top: 20px;
+    font-size: 80%;
+}
 
 #footer_l {
     text-align:center;
