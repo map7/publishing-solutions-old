@@ -1,6 +1,7 @@
 set :application, "publishing-solutions"
 #set :repository,  "amanda@localhost:/home/amanda/publishing-solutions"
-set :repository,  "/home/map7/publishing-solutions"
+#set :repository,  "/home/map7/publishing-solutions"
+set :repository, "git@github.com:map7/publishing-solutions.git"
 
 set :user, "vps"
 set :use_sudo, false
